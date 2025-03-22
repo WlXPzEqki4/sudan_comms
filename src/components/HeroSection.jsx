@@ -359,13 +359,13 @@ const HeroSection = () => {
             <div className="bg-white/10 p-6 rounded-lg backdrop-blur-sm col-span-2">
               <div className="flex items-center mb-4">
                 <div className="h-8 w-8 rounded-full bg-blue-600 flex items-center justify-center mr-3 overflow-hidden">
-                  <img src="public/Picture_1.png" alt="Team member 1" className="w-full h-full object-cover" />
+                  <img src="/Picture_1.png" alt="Team member 1" className="w-full h-full object-cover" />
                 </div>
                 <div className="h-8 w-8 rounded-full bg-orange-600 flex items-center justify-center mr-3 overflow-hidden">
-                  <img src="public/Picture_2.jpg" alt="Team member 2" className="w-full h-full object-cover" />
+                  <img src="/Picture_2.jpg" alt="Team member 2" className="w-full h-full object-cover" />
                 </div>
                 <div className="h-8 w-8 rounded-full bg-green-600 flex items-center justify-center overflow-hidden">
-                  <img src="public/Picture_3.png" alt="Team member 3" className="w-full h-full object-cover" />
+                  <img src="/Picture_3.png" alt="Team member 3" className="w-full h-full object-cover" />
                 </div>
               </div>
               <h3 className="text-xl font-bold mb-2">Intelligence Fusion</h3>
