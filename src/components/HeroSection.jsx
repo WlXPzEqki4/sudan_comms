@@ -307,6 +307,14 @@
 
 
 
+
+
+
+
+
+
+
+
 import React, { useState } from 'react';
 import { Shield, Shuffle } from 'lucide-react';
 
@@ -500,12 +508,6 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
-
-
-
-
-
-
 
 
 

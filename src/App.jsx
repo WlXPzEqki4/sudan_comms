@@ -96,7 +96,8 @@ import CounterNarrativePlan from './components/CounterNarrativePlan';
 import ComparativeMediaAnalysis from './components/ComparativeMediaAnalysis';
 import CommunicationsPlan from './components/CommunicationsPlan';
 import RegionalStrategyComparison from './components/RegionalStrategyComparison';
-// import SudanICJMessagingRFI from './components/SudanICJMessagingRFI';
+import SudanICJMessagingRFI from './components/SudanICJMessagingRFI';
+import SudanICJMessagingRFI2 from './components/SudanICJMessagingRFI2';
 import HeroSection from './components/HeroSection';
 
 const App = () => {
@@ -164,18 +165,34 @@ const App = () => {
             <RegionalStrategyComparison />
           </div>
         );
-      // case 'sudan-icj-messaging-rfi':
-      //   return (
-      //     <div>
-      //       <button 
-      //         onClick={handleBackToNavigator}
-      //         className="mb-4 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200 transition-colors flex items-center"
-      //       >
-      //         ← Back to Navigator
-      //       </button>
-      //       <SudanICJMessagingRFI />
-      //     </div>
-      //   );
+      case 'counter-narrative-recommendations':
+        return (
+          <div>
+            <button 
+              onClick={handleBackToNavigator}
+              className="mb-4 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200 transition-colors flex items-center"
+            >
+              ← Back to Navigator
+            </button>
+            <SudanICJMessagingRFI />
+          </div>
+        );
+        case 'counter-narrative-recommendations_detailed':
+          return (
+            <div>
+              <button 
+                onClick={handleBackToNavigator}
+                className="mb-4 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg font-medium hover:bg-gray-200 transition-colors flex items-center"
+              >
+                ← Back to Navigator
+              </button>
+              <SudanICJMessagingRFI2 />
+            </div>
+          );
+  
+
+
+
       case 'navigator':
       default:
         return <IntelligencePackageNavigator onDocumentOpen={handleOpenDocument} />;

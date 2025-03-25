@@ -1885,6 +1885,19 @@ const ComparativeMediaAnalysis = () => {
               View Interactive Dashboard
             </button>
           </div> */}
+
+
+                        <button 
+                            onClick={() => window.location.href = '/PEAKMETRICS_DEEP_RESEARCH_Comparative_Media_Analysis_UAESudan_ICJ_Narrative_vs_Qatar_Saudi_Arabia_and_Sudan_Strategies.pdf'} 
+                            className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg font-medium hover:bg-blue-200 transition-colors"
+                        >
+                            Download PDF
+                        </button>
+
+
+
+
+
         </div>
       </div>
     </div>

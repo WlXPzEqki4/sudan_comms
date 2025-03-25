@@ -1325,6 +1325,16 @@ const CommunicationsPlan = () => {
               Implementation Dashboard
             </button>
           </div> */}
+
+                        <button 
+                            onClick={() => window.location.href = '/Communications Plan - Countering Sudan Disinformation.pdf'} 
+                            className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg font-medium hover:bg-blue-200 transition-colors"
+                        >
+                            Download PDF
+                        </button>
+
+
+
         </div>
       </div>
     </div>
