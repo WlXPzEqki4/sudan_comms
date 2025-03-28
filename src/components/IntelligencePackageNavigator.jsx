@@ -3221,33 +3221,6 @@ const IntelligencePackageNavigator = ({ onDocumentOpen }) => {
     },
     {
       id: 2,
-      documentId: 'comparative-media-analysis',
-      title: "Comparative Media Analysis",
-      description: "Analysis of narrative treatment across media landscapes",
-      type: "Supporting Analysis",
-      source: "PeakMetrics",
-      color: "green"
-    },
-    {
-      id: 3,
-      documentId: 'communications-plan',
-      title: "Communications Plan",
-      description: "Countering Sudan disinformation narratives",
-      type: "Strategic Framework",
-      source: "VineSight",
-      color: "orange"
-    },
-    {
-      id: 4,
-      documentId: 'regional-strategy-comparison',
-      title: "Regional Strategy Comparison",
-      description: "Analysis of Qatar, Saudi Arabia and Sudan approaches",
-      type: "Contextual Intelligence",
-      source: "PeakMetrics",
-      color: "green"
-    },
-    {
-      id: 5,
       documentId: 'counter-narrative-recommendations',
       title: "UAE and Sudan Counter Narrative Summary Recommendations",
       description: "Practical implementation of the counter-narrative strategy",
@@ -3256,7 +3229,7 @@ const IntelligencePackageNavigator = ({ onDocumentOpen }) => {
       color: "blue"
     },
     {
-      id: 6,
+      id: 3,
       documentId: 'counter-narrative-recommendations_detailed',
       title: "UAE and Sudan Counter Narrative Detailed Recommendations",
       description: "Detailed implementation of the counter-narrative strategy",
@@ -3264,6 +3237,33 @@ const IntelligencePackageNavigator = ({ onDocumentOpen }) => {
       source: "Beacon Red",
       color: "blue"
     },
+    {
+      id: 4,
+      documentId: 'comparative-media-analysis',
+      title: "Comparative Media Analysis",
+      description: "Analysis of narrative treatment across media landscapes",
+      type: "Supporting Analysis",
+      source: "PeakMetrics",
+      color: "green"
+    },
+    {
+      id: 5,
+      documentId: 'communications-plan',
+      title: "Communications Plan",
+      description: "Countering Sudan disinformation narratives",
+      type: "Strategic Framework",
+      source: "VineSight",
+      color: "orange"
+    },
+    {
+      id: 6,
+      documentId: 'regional-strategy-comparison',
+      title: "Regional Strategy Comparison",
+      description: "Analysis of Qatar, Saudi Arabia and Sudan approaches",
+      type: "Contextual Intelligence",
+      source: "PeakMetrics",
+      color: "green"
+    }
   ];
 
   // State to track which section is currently selected

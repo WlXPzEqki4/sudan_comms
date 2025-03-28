@@ -3087,24 +3087,14 @@ const SudanICJMessagingRFI = () => {
                         <span className="text-gray-600">Produced by Beacon Red</span>
                     </div>
                     <div className="flex space-x-4">
-                        {/* <button className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg font-medium hover:bg-blue-200 transition-colors">
-                            Download PDF
-                        </button> */}
 
 
                         <button 
-                            onClick={() => window.location.href = '/20250321-UAE and Sudan Counter Narrative Plan - Beacon Red Fusion Demo.pdf'} 
+                            onClick={() => window.location.href = '/20250324-Sudan Consolidated Recommendations.pdf'} 
                             className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg font-medium hover:bg-blue-200 transition-colors"
                         >
                             Download PDF
                         </button>
-
-
-
-
-
-
-
 
                     </div>
                 </div>
